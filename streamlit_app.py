@@ -29,7 +29,7 @@ for label, col in zip(button_labels, cols):
 
                 with col1:
                     st.header("FUNCTION")
-                    st.image('square.jpg')
+                    st.image('square.jpg',caption='square')
 
                 with col2:
                     st.header("DERIVATIVE")
@@ -42,7 +42,7 @@ for label, col in zip(button_labels, cols):
 
                 with col1:
                     st.header("FUNCTION")
-                    st.image('cube.jpg')
+                    st.image('cube.jpg',caption='cube')
 
                 with col2:
                     st.header("DERIVATIVE")
@@ -54,7 +54,7 @@ for label, col in zip(button_labels, cols):
             if label == r"$\tan x$":
                 with col1:
                     st.header("FUNCTION")
-                    st.image('tan x.jpg')
+                    st.image('tan x.jpg',caption='tan(x)')
 
                 with col2:
                     st.header("DERIVATIVE")
@@ -66,7 +66,7 @@ for label, col in zip(button_labels, cols):
             if label == r"$\sin x$":
                 with col1:
                     st.header("FUNCTION")
-                    st.image('sin x.jpg')
+                    st.image('sin x.jpg',caption='sin(x)')
 
                 with col2:
                     st.header("DERIVATIVE")
@@ -79,7 +79,7 @@ for label, col in zip(button_labels, cols):
 
                 with col1:
                     st.header("FUNCTION")
-                    st.image('exp.jpg')
+                    st.image('exp.jpg',caption='exponential')
 
                 with col2:
                     st.header("DERIVATIVE")
@@ -91,7 +91,7 @@ for label, col in zip(button_labels, cols):
             if label == r"$\ln(x)$":
                 with col1:
                     st.header("FUNCTION")
-                    st.image('ln.jpg')
+                    st.image('ln.jpg',caption='logarithmic')
 
                 with col2:
                     st.header("DERIVATIVE")
@@ -103,7 +103,7 @@ for label, col in zip(button_labels, cols):
             if label == r"$\frac{1}{x}$":
                 with col1:
                     st.header("FUNCTION")
-                    st.image('reciprocal.jpg')
+                    st.image('reciprocal.jpg',caption='reciprocal')
 
                 with col2:
                     st.header("DERIVATIVE")
@@ -115,7 +115,7 @@ for label, col in zip(button_labels, cols):
             if label == r"$\sin^{-1}x$":
                 with col1:
                     st.header("FUNCTION")
-                    st.image('sin-1.jpg')
+                    st.image('sin-1.jpg',caption='sin inverse')
 
                 with col2:
                     st.header("DERIVATIVE")
@@ -127,7 +127,7 @@ for label, col in zip(button_labels, cols):
             if label == r"$\tan^{-1}x$":
                 with col1:
                     st.header("FUNCTION")
-                    st.image('tan-1.jpg')
+                    st.image('tan-1.jpg',caption='tan inverse')
 
                 with col2:
                     st.header("DERIVATIVE")
